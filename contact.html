@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Your Name</title>
-  </head>
-  <body>
-   
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chris Kim</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <p class="brand">Chris Kim</p>
+    <p><a href="index.html">About Chris Kim</a></p>
+  </nav>
+  <main class="one-col">
+    <h2>Contact</h2>
+    <form action="https://formsubmit.co/c68e3bfe317a9fc8fbfd43d7d317fc62" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="name" />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="email address" />
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="8" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; <a href="index.html">Chris Kim</a></p>
+    <p>
+      <a href="https://www.linkedin.com/in/chriskim1111" target="_blank" rel="noopener" aria-label="Chris Kim on LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
