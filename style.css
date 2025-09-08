@@ -3,6 +3,7 @@ body {
   font-family: Inter, sans-serif; 
   background: #fff; 
   color: #0f172a; 
+  padding: 20px;
   }
 
 /****************   Nav Section **********************/
@@ -27,7 +28,7 @@ footer {
 /*********** Splash Page ************************/
 header {
   background: linear-gradient(180deg, #e0f2fe, #ffffff); 
-  padding: 20px; 
+  padding: 10px; 
   border-bottom: 1px solid #e2e8f0; 
 }
 
@@ -122,24 +123,24 @@ section a:hover {
   max-width: 600px; 
   margin: 20px auto; 
   padding: 15px; 
-  border: 1px solid #e2e8f0; 
+  border: 1px solid #0ea5e9; 
   border-radius: 10px; 
   background: #fff; 
 }
 
 input {
-  width: 100%; 
+  width: 90%; 
   padding: 8px; 
   margin-bottom: 10px; 
-  border: 1px solid #cbd5e1; 
+  border: 1px solid #0ea5e9; 
   border-radius: 6px; 
 
 }
 
 textarea {
-  width: 100%; 
+  width: 90%; 
   padding: 8px; 
-  border: 1px solid #cbd5e1; 
+  border: 1px solid #0ea5e9; 
   border-radius: 6px; 
    
 }
